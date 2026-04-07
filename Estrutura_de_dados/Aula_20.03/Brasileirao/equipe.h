@@ -20,7 +20,7 @@ typedef struct {
     int SG; // (GP - GC)
     float aproveitamento; //percentual de pontos conquistados(100.0 * (P / 3 * J))
 
-} equipe;
+} Equipe;
 
 Equipe * lerDados(char * Arquivo);
 

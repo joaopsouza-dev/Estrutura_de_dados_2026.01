@@ -50,13 +50,14 @@ Equipe * lerDados(char * Arquivo) {
 
      ) == 11) {
 
-        T[i].aproveitamento = 100.0 * (T[i].Pontos / 3.0 * T[i].J);
+        T[i].aproveitamento = 100.0 * (T[i].Pontos / (3.0 * T[i].Jogos));
         i++;
 
-     }
+    }
 
      fclose(fp);
      return T;
+     free(T);
 
 
 }
