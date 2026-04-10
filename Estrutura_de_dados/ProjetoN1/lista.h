@@ -1,7 +1,7 @@
 #ifndef LISTA_H
 #define LISTA_H
 
-#define TAMANHO 1000
+#define TAMANHO 500
 
 /*
 "sigla_tribunal","procedimento","ramo_justica","sigla_grau","uf_oj","municipio_oj", ================ CHAR
@@ -33,24 +33,24 @@ typedef struct {
     int prim_sent2026;
     int suspensos_2026;
     int dessobrestados_2026;
-    char[TAMANHO] cumprimento_meta1;
+    char cumprimento_meta1[TAMANHO];
     int distm2_a;
     int julgm2_a;
     int suspm2_a;
-    int cumprimento_meta2a;
+    char cumprimento_meta2a[TAMANHO];
     int distm2_ant;
     int julgm2_ant;
     int suspm2_ant;
     int desom2_ant;
-    char[TAMANHO] cumprimento_meta2ant;
+    char cumprimento_meta2ant[TAMANHO];
     int distm4_a;
     int julgm4_a;
     int suspm4_a;
-    char[TAMANHO] cumprimento_meta4a;
+    char cumprimento_meta4a[TAMANHO];
     int distm4_b;
     int julgm4_b;
     int suspm4_b;
-    char[TAMANHO] cumprimento_meta4b;
+    char cumprimento_meta4b[TAMANHO];
 
 } Dados;
 
