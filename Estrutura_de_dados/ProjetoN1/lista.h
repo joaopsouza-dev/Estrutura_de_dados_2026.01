@@ -1,6 +1,7 @@
 #ifndef LISTA_H
 #define LISTA_H
 
+#include <stdbool.h>
 #define TAMANHO 500
 
 /*
@@ -54,6 +55,6 @@ typedef struct {
 
 } Dados;
 
-Dados * juntar_dados(char *nome_arquivo);
+Dados * juntar_dados(char *vetorArquivos[], bool primeiroArquivo);
 
 #endif
